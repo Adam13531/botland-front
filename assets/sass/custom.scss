@@ -5,7 +5,7 @@ $bannerHeight: 200px;
 $bannerColor: #3273dc;
 
 .play-button {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .section.content {
@@ -60,8 +60,13 @@ $bannerColor: #3273dc;
   }
 }
 
+// Give the tagline text less margin-top
+.content h2:not(:first-child) {
+  margin-top: 0.2428em;
+}
+
 .description {
-  margin: 100px 0;
+  margin: 50px 0 70px;
 }
 
 .feature {
@@ -69,7 +74,7 @@ $bannerColor: #3273dc;
 }
 
 .download {
-  margin: 80px 0 60px;
+  margin: 60px 0 25px;
 }
 
 .footer {
@@ -127,7 +132,7 @@ $bannerColor: #3273dc;
 .betaBanner a::before,
 .betaBanner a::after {
   background: gray;
-  content: '';
+  content: "";
   display: block;
   height: 1px;
   left: 0;
