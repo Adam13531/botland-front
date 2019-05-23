@@ -87,7 +87,7 @@ $bannerColor: #3273dc;
   font-size: 1.2rem;
   font-weight: bold;
   line-height: 2rem;
-  padding: 5px 40px;
+  padding: 5px 20px;
   pointer-events: all;
   position: relative;
   text-align: center;
@@ -98,6 +98,7 @@ $bannerColor: #3273dc;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
     display: initial;
     left: -60px;
+    padding: 5px 40px;
     position: absolute;
     top: 60px;
     transform: rotate(-45deg);
@@ -133,12 +134,16 @@ $bannerColor: #3273dc;
 .betaBanner a::after {
   background: gray;
   content: "";
-  display: block;
+  display: none;
   height: 1px;
   left: 0;
   position: absolute;
   top: 1px;
   width: 100%;
+
+  @media (min-width: 1024px) {
+    display: block;
+  }
 }
 
 .betaBanner a::after {
