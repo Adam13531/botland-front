@@ -24,6 +24,13 @@ $bannerColor: #3273dc;
     }
   }
 
+  .steam-logo {
+    margin: 17px;
+    margin-left: 2px;
+    max-height: 62px;
+    max-width: 250px;
+  }
+
   .video-wrapper {
     @include mobile {
       height: 0;
