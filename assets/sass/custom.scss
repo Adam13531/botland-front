@@ -31,6 +31,11 @@ $bannerColor: #3273dc;
     max-width: 250px;
   }
 
+  .itch-logo {
+    height: 62px;
+    margin: 17px 0px;
+  }
+
   .video-wrapper {
     @include mobile {
       height: 0;
